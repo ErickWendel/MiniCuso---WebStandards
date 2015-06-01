@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DEMO AULA 2</title>
+	<link rel="icon" href="http://www.noupe.com/wp-content/uploads/2011/06/Final-look.jpg">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<style>
+		section{
+			/*aqui colocamos uma margem em CIMA para o CONTEUDO da pagina*/
+			/*TAMBÉM poderíamos colocar somente um margin:10 20 20 mas preferimos colocar NA UNHA */
+			margin-top: 10px;
+
+			margin-right:20px;
+			margin-left:20px;
+		}
+		
+	
+	</style>
+</head>
+<body>
+
+	<header>
+		<!-- copiamos o menuzão do tema bootswach SIMPLEX -->
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a href="#">Home</a></li>
+
+			<li role="presentation">
+				<!-- como nossos arquivos estão na mesma PASTA somente definimos o NOME
+				de cada ARQUIVO para redirecionar -->
+				<a href="cadastrar.html">Cadastrar</a>
+			</li>
+			<li role="presentation">
+				<a href="listar.html">Listar</a>
+			</li>
+		</ul>
+		
+		</header>
+	</header>
+	<section >
+		<legend>Lista de Hackerzoes</legend>
+		
+		<!-- pegamos esta CLASSE CSS do site BOOTSTRAP -->
+		<div class="panel panel-default">
+			<!-- AQUI definimos uma TABLE (Tabela para quem nao sabe INGREIS) -->
+			<table class="table">
+				<!-- de acordo com as normas do HTML 5 definimos o HEAD da nossa TABLE, onde ficarão os titulos
+				das tabelas -->
+				<thead>
+					<!-- aqui informamos a LINHA dos TITULOS da TABELA -->
+					<tr>
+						<!-- como uma TABELA do EXCEL informamos cada TITULO das colunas -->
+						<td>Nome</td>
+						<td>Telefone</td>
+						<td>Email</td>
+						<td>Sexo</td>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- aqui definimos cada LINHA da nossa TABELA (CONTEUDO) -->
+					<tr>
+						<!-- em cada TH ficam o CONTEUDO das colunas
+						são as colunas da nossa TR
+						 (O NOME POR EXEMPLO ESTÁ NA PRIMEIRA POSICAO, ENTAO MEU NOME
+						FICA NA MESMA POSIÇÃO) -->
+						<th>Erick Wendel</th>
+						<th>(11) 9901-2600</th>
+						<th>hackerzão@hackerzovisk.com</th>
+						<th>Masculino</th>
+					</tr>
+					<tr>
+						<th>Mariana Gomes</th>
+						<th>(11) 2131-2600</th>
+						<th>mari@mari.com</th>
+						<th>Feminino</th>
+					</tr>
+					<tr>
+						<th>Fulano de Tal</th>
+						<th>(11) 1231-2600</th>
+						<th>fulano@fulano.com</th>
+						<th>Masculino</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+	</section>
+	<footer>
+		Todos os direitos reservados à <strong>XUXA</strong>
+	</footer>
+</body>
+</html>

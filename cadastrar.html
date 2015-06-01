@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- esta TAG HTML serve para informar ao NAVEGADOR sua codificação, para ele permitir usar "Ã ã ê é" os acentos
+	malandrão -->
+	<meta charset="utf-8">
+	<title>DEMO AULA 1</title
+	><!-- aqui referenciamos nosso css do tema !-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<style>
+		/* Aqui colocamos o nosso formulario e conteudo da pagina um pouquinho para o centro*/
+		section{
+			margin: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- aqui é onde fica os conteudos do cabeçalho, no nosso caso os menus ficarão aqui -->
+	<header>
+		<!-- copiamos o menuzão do tema bootswach SIMPLEX -->
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a href="#">Home</a></li>
+
+			<li role="presentation">
+				<!-- como nossos arquivos estão na mesma PASTA somente definimos o NOME
+				de cada ARQUIVO para redirecionar -->
+				<a href="cadastrar.html">Cadastrar</a>
+			</li>
+			<li role="presentation">
+				<a href="listar.html">Listar</a>
+			</li>
+		</ul>
+
+	</header><!-- /header -->
+
+	<!-- aqui será a nosso conteudo principal da pagina -->
+	<section>
+		<!-- Aqui inicializamos nosso formulário de cadastro -->
+		<form id="formId">
+			<!-- esta TAG HTML é responsável por envolver nosso conteudo dentro de um QUADRADÃO -->
+			<fieldset>
+				<!-- Aqui colocamos nosso titulo para o formulário -->
+				<legend>Cadastro de Usuários</legend>
+				<div class="row">
+					<!-- aqui fica o NOMEZINHO do em cima do campo -->
+					<label for="nome">Nome</label>
+					<!-- aqui é onde o usuario vai digitar o INPUT pode receber diversos TYPES, neste caso usamos para texto
+					repare que temos o CLASS com um conteudo dentro, este conteudo é a CLASSE do BOOTSTRAP para deixar
+					noosso campo bonitão o campo REQUIRED indica que o campo é obrigatorio -->
+					<input type="text" id="nome" name="nome" class="form-control" required="required" />
+					<label for="">Telefone</label>
+					<input type="number" id="telefone" name="telefone" class="form-control" required="required" />
+					<label for="">Data de Nascimento</label>
+					<input type="date" id="dataNascimento" name="dataNascimento" class="form-control" required="required" />
+					<label for="Email">Email</label>
+					<input type="email" id="Email" name="Email" class="form-control" required="required" />
+					
+					<label for="">Campo Desabilitado</label>
+					<input type="text" class="form-control" disabled="disabled"></input>
+
+					<!-- tag responsável para pular uma LINHA, os DESIGNERS Odeiam que façamos isso HAHA -->
+					<br>
+					<!-- esta tag, também pode receber diversos tipos, neste caso, usamos o SUBMIT, para enviar nosso FORMULARIO
+					para o SERVIDOR. neste caso ainda não temos um servidor -->
+					<button class="btn btn-success" type="submit" id="cadastrar">Cadastrar</button>
+					<!-- neste caso, mudamos o TYPE do BUTTON, o TYPE reset, indica que ele limpará todos os campos 
+					do nosso formulário -->
+					<button class="btn btn-danger" type="reset" id="reset">Limpar Formulário</button>
+				</div>
+			</fieldset>
+			
+
+		</form>	
+	</section>
+	<!-- AQUI fica o nosso RODAPÉ da pagina, onde fica os nomes dos bonitoes criadores do SITE   -->
+	<footer>
+		Todos os Direitos Reservados á <strong>XUXA</strong>
+	</footer>
+</body>
+</html>
