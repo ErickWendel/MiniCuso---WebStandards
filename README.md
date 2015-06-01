@@ -1,36 +1,36 @@
 # MiniCuso---WebStandards
-Erick Wendel
-erick.workspace@gmail.com
-facebook.com/EriickWendel
-linkedin.com/in/erickwendel
-erickwendel.com.br (em construção em !!!)
+Erick Wendel<br>
+erick.workspace@gmail.com<br>
+facebook.com/EriickWendel<br>
+linkedin.com/in/erickwendel<br>
+erickwendel.com.br (em construção em !!!)<br>
 
 
-Preparação, Oque precisamos ?
-Editor de Texto = SUBLIME TEXT 3 - FREEEEEE
+Preparação, Oque precisamos ?<br>
+Editor de Texto = SUBLIME TEXT 3 - FREEEEEE<br>
 
-O que vamos aprender?
-	HTML 5
-		- Semantica
-		- Novidades 
-		- Tags Mágicas
+O que vamos aprender?<br>
+	HTML 5<br>
+		- Semantica<br>
+		- Novidades <br>
+		- Tags Mágicas<br>
 
-	Bootstrap
+	Bootstrap<br>
 
-		- Bootstrap Responsivão !!!
-		- CDN (tudo online )
-		- Components
+		- Bootstrap Responsivão !!!<br>
+		- CDN (tudo online )<br>
+		- Components<br>
 
-		- Facilidades e Temas
-			- Bootswach
+		- Facilidades e Temas<br>
+			- Bootswach<br>
 
 
-Referencias
-	http://www.w3schools.com/html/html5_intro.asp
-	http://bootswatch.com/
-	http://getbootstrap.com/
+Referencias<br>
+	http://www.w3schools.com/html/html5_intro.asp<br>
+	http://bootswatch.com/<br>
+	http://getbootstrap.com/<br>
 
-Duvidas???? 
-	Manda email e estuda saporra
+Duvidas???? <br>
+	Manda email e estuda saporra <br>
 	
 --------------------------
